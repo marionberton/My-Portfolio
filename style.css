@@ -31,10 +31,12 @@ header {
 .intro {
   padding: 24px;
 }
-
+h1 {
+  font-size: 35px;
+}
 .myintro {
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.8;
 }
 
 #maincontent {
@@ -240,9 +242,12 @@ footer {
     display: flex;
     flex-direction: column;
   }
-
+  h1 {
+    font-size: 52px;
+  }
   .myintro {
     width: 75%;
+    font-size: 18px;
   }
 
   #mobile {
